@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="icon" href="images.jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1 class="hi">Guess the Number</h1>
+    </div>
 
+    <div class="one">
+    <input id="sa">
+    <button onclick="check()">Play It</button>
+    <p id="p1">You r Right/Wrong</p>
+
+    </div>
+<script>
+var sa=document.getElementById("sa")
+var p1=document.getElementById("p1")
+var num=Math.floor(Math.random()*10)+1
+
+function check(){
+    var enter=sa.value
+    if(num==enter){
+        console.log("You r Right 🤩")
+        p1.textContent="You r Right😀"
+        alert("Hey You Won the match Buddy😎")
+    }
+    else{
+        p1.textContent="You r Wrong🥶 Try Again"
+
+    }
+}
+
+</script>
+
+    
+</body>
+</html>
