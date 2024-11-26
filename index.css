@@ -1,1 +1,72 @@
+body{
+    background-image: url('2560x1440-gaming-final-fantasy-xv-eotgyf94zuza2cz2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hi{
+    text-align: center;
+}
+.one{
+    
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(152, 246, 246);
+    opacity: 0.4;
+    padding-top: 80px;
+
+}
+
+    
+@media (max-width: 600px) {
+    .hi {
+        font-size: 24px; 
+       
+        /* Smaller font size for mobile */
+    }
+    .one {
+        font-size: 20px;  /* Adjust font size for buttons and text */
+        padding-top: 30px;  /* Less padding for smaller screens */
+        width: 40%;  /* Make the container smaller */
+        margin: 0 auto;  /* Center the container */
+        color: white;
+    }
+    input {
+        width: 70%;  /* Full width input field for mobile */
+        padding: 10px;  /* Increase padding for better touch interaction */
+        font-size: 16px;  /* Adjust font size for input */
+    }
+    button {
+        width: 70%;  /* Full width button for better interaction */
+        padding: 15px;  /* Increase padding for better touch interaction */
+        font-size: 18px;  /* Adjust font size for button */
+    }
+
+}
+
+@media (min-width: 601px) {
+    .hi {
+        font-size: 40px; 
+       
+        /* Smaller font size for mobile */
+    }
+    .one {
+        font-size: 40px;  /* Adjust font size for buttons and text */
+        padding-top: 30px;  /* Less padding for smaller screens */
+        width: 90%;  /* Make the container smaller */
+        margin: 0 auto;  /* Center the container */
+       
+    }
+    input {
+        width: 50%;  /* Full width input field for mobile */
+        padding: 10px;  /* Increase padding for better touch interaction */
+        font-size: 30px;  /* Adjust font size for input */
+    }
+    button {
+        width: 30%;  /* Full width button for better interaction */
+        padding: 15px;  /* Increase padding for better touch interaction */
+        font-size: 30px;  /* Adjust font size for button */
+    }
+
+}
+
 
